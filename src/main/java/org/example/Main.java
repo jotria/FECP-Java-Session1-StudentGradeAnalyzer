@@ -109,7 +109,7 @@ public class Main{
         if(topStudents.size() > 1){
             for(int i=0; i < topStudents.size(); i++){
                 String student = topStudents.get(i);
-                System.out.print(student + "(" + topScore + ")");
+                System.out.print(student + " (" + topScore + ")");
 
                 if (i < topStudents.size()-1){
                     System.out.print(", ");
